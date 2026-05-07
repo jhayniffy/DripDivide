@@ -1,4 +1,4 @@
-# DripDivide 💧
+# DripDivide
 
 **A Stellar-powered expense splitting app for instant, borderless debt settlement without high bank fees.**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -21,23 +21,23 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **DripDivide** is a Splitwise-style expense splitting application that leverages the **Stellar blockchain network** to settle group debts instantly and securely across international borders. Unlike traditional payment methods, DripDivide eliminates high bank fees, currency conversion delays, and intermediaries.
 
 Whether you're splitting rent with roommates, dividing travel expenses with friends, or managing shared costs across countries, DripDivide makes it seamless and affordable.
 
 ### Key Benefits
-- ⚡ **Instant Settlement**: Settle debts in seconds using Stellar's blockchain
-- 🌍 **Borderless**: No geographic restrictions or complex international transfers
-- 💰 **Low Fees**: Minimal transaction costs compared to traditional banking
-- 🔒 **Secure**: Built on blockchain technology with cryptographic verification
-- 👥 **Group Management**: Easy group creation and expense tracking
-- 📱 **User-Friendly**: Intuitive interface for managing shared expenses
+- **Instant Settlement**: Settle debts in seconds using Stellar's blockchain
+- **Borderless**: No geographic restrictions or complex international transfers
+- **Low Fees**: Minimal transaction costs compared to traditional banking
+- **Secure**: Built on blockchain technology with cryptographic verification
+- **Group Management**: Easy group creation and expense tracking
+- **User-Friendly**: Intuitive interface for managing shared expenses
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 - **User Authentication**: Secure account creation and login
@@ -59,7 +59,7 @@ Whether you're splitting rent with roommates, dividing travel expenses with frie
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Architecture Diagram
 
@@ -154,7 +154,7 @@ User Action (Split Expense)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React** - UI library
@@ -184,7 +184,7 @@ User Action (Split Expense)
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Node.js (v16+)
@@ -252,7 +252,7 @@ soroban contract deploy --network testnet
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 dripdivide/
@@ -296,7 +296,7 @@ dripdivide/
 
 ---
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### 1. Create a Group
 ```bash
@@ -342,7 +342,7 @@ curl -X POST http://localhost:3001/api/settlements \
 
 ---
 
-## 🔑 Key Code Snippets
+## Key Code Snippets
 
 ### Backend: Settlement Service
 ```typescript
@@ -549,7 +549,7 @@ impl SettlementContract {
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -576,7 +576,7 @@ npm run format
 
 ---
 
-## 📝 API Documentation
+##  API Documentation
 
 ### Authentication
 All endpoints require a JWT token in the `Authorization` header:
@@ -596,19 +596,19 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ---
 
-## 🔐 Security Considerations
+##  Security Considerations
 
-- ✅ All API endpoints are protected with JWT authentication
-- ✅ Private keys stored securely in environment variables
-- ✅ HTTPS enforced in production
-- ✅ Input validation on all endpoints
-- ✅ Rate limiting implemented
-- ✅ SQL injection prevention via parameterized queries
-- ✅ CORS properly configured
+- All API endpoints are protected with JWT authentication
+-  Private keys stored securely in environment variables
+-  HTTPS enforced in production
+- Input validation on all endpoints
+- Rate limiting implemented
+- SQL injection prevention via parameterized queries
+- CORS properly configured
 
 ---
 
-## 📞 Support & Community
+## Support & Community
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/dripdivide/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/dripdivide/discussions)
@@ -616,13 +616,13 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with [Stellar SDK](https://developers.stellar.org)
 - Inspired by [Splitwise](https://www.splitwise.com)
@@ -630,6 +630,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Happy splitting! 💧**
+**Happy splitting! **
 
-*Last updated: May 6, 2026*
